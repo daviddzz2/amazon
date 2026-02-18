@@ -2,7 +2,6 @@ import queue
 import time
 import random
 from datetime import datetime, timedelta
-import threading
 
 class Paquete:
     def __init__(self, id_paquete, nombre, tipo, fecha_ingreso, fecha_vencimiento=None):
